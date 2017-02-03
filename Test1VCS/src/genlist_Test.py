@@ -4,4 +4,5 @@ cwd = os.getcwd()
 sys.path.append(cwd)
 
 from generate_list import printIt
-printIt()
+for x in range(1,1000):
+    printIt()
